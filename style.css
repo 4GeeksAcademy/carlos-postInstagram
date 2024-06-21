@@ -11,7 +11,7 @@ body {
 
 header {
     background-color: #002130;
-    padding: 3rem 0;
+    padding: 1rem 0;
     color: white;
     text-align: center;
 }
@@ -42,8 +42,9 @@ section article div > spam {
     margin: 0 0,25rem 0;
 }
 
-.tres_puntos {
+.tres-puntos {
     float: right;
+    color: rgb(23, 23, 34);
 }
 
 .encabezado {
@@ -51,11 +52,9 @@ section article div > spam {
     padding: 0.5rem 0.5rem;
 }
 
-.tres_primeras { 
-    
+.tres-primeras { 
     padding: 0.5rem;
     display: inline;
-    
 }
 
 .marcador {
@@ -73,7 +72,7 @@ section article p {
 
 footer {
     background-color: #1d1d1d;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 footer section {
@@ -89,6 +88,11 @@ footer a{
 footer p {
     color: white;
     margin: 0;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
 }
 
 footer a:hover {
